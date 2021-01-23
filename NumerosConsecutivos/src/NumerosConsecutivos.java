@@ -4,6 +4,7 @@ public class NumerosConsecutivos {
         int suma = 0;
 
         while(contador <= 10){
+            System.out.println("Contador + Suma: " + contador + " + " + suma + " = " + (contador+suma));
             suma = contador + suma;
             contador++;
         }
